@@ -12,7 +12,7 @@
     {
       "matches": ["*://*/*"],
       "css": ["mystyles.css"],
-     "js": ["myscript.js"]
+      "js": ["myscript.js","js/jquery-1.10.1.min.js", "js/my-del-ad-script.js"]
     }
   ]
 }
