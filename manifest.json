@@ -1,13 +1,18 @@
 {
-   "name": "Disable AD",
-   "version": "1.0",
-   "manifest_version": 2,
-   "description": "Disable AD",
-   "content_scripts": [
+  "name": "拦截广告插件",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Disable AD",
+  "icons":{"16":"16.png","48":"48.png","128":"128.png"},
+  "browser_action": {
+     "default_icon": "16.png",
+     "default_title": "拦截广告"
+  },
+  "content_scripts": [
     {
       "matches": ["*://*/*"],
       "css": ["mystyles.css"],
-      "js": ["myscript.js"]
+     "js": ["myscript.js"]
     }
   ]
 }

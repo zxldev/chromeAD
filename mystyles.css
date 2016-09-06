@@ -1,3 +1,7 @@
+
+.ad-area,
+#ssp_adx, .ad-flag-wrap, .sideCol,
+#pic_text_bottom, #pic_text_top, #bottom_box, .film_info_r, #right_couple, #left_couple, #right_float, #left_float, #top_box,
 .adsbygoogle, #google_ads_frame1, div[style="width:336px;height:280px;float:left;"], #the-promos {
     display: none;
 }
