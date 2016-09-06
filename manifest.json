@@ -1,0 +1,13 @@
+{
+   "name": "Disable AD",
+   "version": "1.0",
+   "manifest_version": 2,
+   "description": "Disable AD",
+   "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["mystyles.css"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
